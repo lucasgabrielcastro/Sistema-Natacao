@@ -1,0 +1,8 @@
+Model SysADLModel ; 
+package SysADL.types { 
+	value type Int { } 
+	value type Boolean { } 
+	value type String { } 
+	value type Void { } 
+	value type Real { }
+} Requirement SMSRequirements ( 0 ) { text = "The System must satisfy both Functional and Non-Functional Requirements" } Requirement SMSNonFunctionalrequirements ( 2 ) { text = "" } Requirement UserManagementFR ( UM-1 ) { text = "User CRUD" Requirement SMSFunctionalRequirements ( 1 ) { } }
